@@ -14,10 +14,10 @@ docker测试
 ##### 3.  chkconfig docker on -> 设置为开机启动
 ##### 4.  配置Docker加速器
 vi  /etc/docker/daemon.json<br>
-｛<br>
-"registry-mirrors": ["https://registry.docker-cn.com"],<br>
-"live-restore": true<br>
-｝<br>
+{<br>
+    "registry-mirrors": ["https://registry.docker-cn.com"],<br>
+    "live-restore": true
+}<br>
 ##### 5.  service docker restart -> 重新启动 docker 服务
 ##### 6.  docker version -> 查看docker版本
 ##### 7.  安装jdk
